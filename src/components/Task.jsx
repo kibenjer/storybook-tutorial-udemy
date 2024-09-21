@@ -22,6 +22,7 @@ export default function Task({
           readOnly={true}
           name="title"
           placeholder="Input Title"
+          style={{ backgroundColor: "red" }}
         />
       </label>
       {state !== "TASK_ARCHIVED" && (
