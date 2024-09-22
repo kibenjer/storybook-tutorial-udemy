@@ -11,6 +11,8 @@ jobs:
   test:
     # Operating System
     runs-on: ubuntu-latest
+    environment: storybook-auto-build_udemy-study
+
     # Job steps
     steps:
       - uses: actions/checkout@v4
